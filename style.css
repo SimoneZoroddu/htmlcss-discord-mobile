@@ -8,9 +8,26 @@ body {
     width: 512px;   
 }
 
+main {
+    margin: 3rem 1rem;
+}
+
+.text {
+    margin: 2rem;
+    border: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.download_button
 img {
     width: 100%;;
 }
-.first_font {
+
+#sigmar_font {
     font-family: "Sigmar", sans-serif;
+}
+
+#dm_sans_font {
+    font-family: "DM Sans", sans-serif;
 }
