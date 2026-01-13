@@ -5,7 +5,8 @@
 }
 
 body {
-    width: 512px;   
+    width: 512px;
+    background-color: rgba(0, 0, 129, 0.884);
 }
 
 main {
@@ -15,19 +16,49 @@ main {
 .text {
     margin: 2rem;
     border: 2rem;
-    padding: 2rem;
+    padding: 0;
     text-align: center;
+    margin-top: 6rem;
 }
 
-.download_button
+
+
+.download_button {
+    margin: 0.5rem;
+    padding: 1rem;
+    size: 8rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border-width: 1px;
+    background-color: white;
+    width: 24rem;
+    font-size: larger;
+}
+
+.open_in_browser {
+    margin: 0.5rem;
+    padding: 1rem;
+    size: 8rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border-width: 1px;
+    background-color: white;
+    width: 24rem;
+    font-size: larger;
+    background-color: rgb(160, 160, 248);
+    border-color: rgba(240, 255, 255, 0);
+}
+
 img {
     width: 100%;;
 }
 
 #sigmar_font {
     font-family: "Sigmar", sans-serif;
+    color: white;
 }
 
 #dm_sans_font {
     font-family: "DM Sans", sans-serif;
+    color: white;
 }
