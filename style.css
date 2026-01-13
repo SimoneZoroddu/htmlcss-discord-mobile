@@ -5,6 +5,12 @@
 }
 
 body {
-    width: 512px;
+    width: 512px;   
 }
 
+img {
+    width: 100%;;
+}
+.first_font {
+    font-family: "Sigmar", sans-serif;
+}
