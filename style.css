@@ -75,7 +75,7 @@ main {
 } 
 
 .first_section {
-    margin: 1rem;
+    margin: 4rem 0.5rem; 
     border-radius: 3rem;
     padding: 3rem 1rem;
     background-color: rgb(160, 160, 248);
