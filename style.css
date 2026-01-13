@@ -10,13 +10,13 @@ body {
 }
 
 main {
-    margin: 3rem 1rem;
+    margin: 3rem 2rem;
 }
 
 .text {
-    margin: 2rem;
+    margin: 1rem;
     border: 2rem;
-    padding: 0;
+    padding: 2rem;
     text-align: center;
     margin-top: 6rem;
 }
@@ -63,14 +63,21 @@ img {
     color: white;
 }
 
+.spasing {
+    margin: 1rem 2rem;
+}
 
-
-
-
-
-
-
+.first_section {
+    margin: 1rem;
+    border-radius: 3rem;
+    padding: 3rem 1rem;
+    background-color: rgb(160, 160, 248);
+    position: relative;
+}
 
 #size_video {
-    
+    width: 380px;
+    height: 300px;
+    border-radius: 3rem;
+    overflow: clip;
 }
